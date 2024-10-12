@@ -238,7 +238,7 @@ export const doctors = [
   },
 ];
 
-export const mainUrl: string = "http://localhost:5000/api/";
+export const mainUrl: string = "https://doctorsystem-api.vercel.app/api/";
 
 export interface DoctorInfo {
   id: number;
