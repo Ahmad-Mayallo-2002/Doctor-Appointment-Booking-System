@@ -11,7 +11,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://doctor-appointment-booking-system-xi.vercel.app",
+    origin: "https://doctorsystem.vercel.app",
     methods: ["GET", "POST", "DELETE", "PATCH", "PUT"],
     credentials: true,
     allowedHeaders: ["Authorization", "Content-Type"],
